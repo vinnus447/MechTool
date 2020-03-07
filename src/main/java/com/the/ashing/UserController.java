@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.the.ashing.controller;
+package com.the.ashing;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
