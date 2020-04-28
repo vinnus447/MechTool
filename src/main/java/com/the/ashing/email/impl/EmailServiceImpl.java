@@ -22,10 +22,10 @@ public class EmailServiceImpl implements IEmailService {
 	@Override
 	public void sendEMail(String emailId, String phoneNmber) {
 		SimpleMailMessage msg = new SimpleMailMessage();
-        msg.setTo("revanthcompnany999@gmail.com");
+        msg.setTo("revanthcompnany999@gmail.com","harish260@gmail.com");
 
         msg.setSubject("Please contact Me");
-        msg.setText("Email" + emailId + " phone number" + phoneNmber);
+        msg.setText("Email" + emailId + " phone number " + phoneNmber);
 
         javaMailSender.send(msg);
 	}
